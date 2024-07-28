@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Registration Form</title>
+<link style = "stylesheet" href="styles.css">
+<style>
+body {
+background-color: lavender;	
+}
+.bg {
+background-color: skyblue;
+}
+</style>
+</head>
+<body>
+<center class="bg">
+<h1>Registration Page</h1>
+<form action = "registration" method="GET">
+  <label>first name</label>
+<input type="text" name="fname"><br>
+<label>last name</label>
+<input type="text" name="name" placeholder= "Enter Your name"><br>
+<label> Date of Birth</label>
+<input type="date" name="dob"><br>
+<label>Email</label>
+<input type="email" name="email"><br>
+
